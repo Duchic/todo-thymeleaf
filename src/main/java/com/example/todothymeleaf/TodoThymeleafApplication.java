@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class TodoThymeleafApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(TodoThymeleafApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(TodoThymeleafApplication.class, args);
+    }
 
 }
