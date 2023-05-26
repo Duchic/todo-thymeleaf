@@ -1,6 +1,6 @@
 package com.example.todothymeleaf.repositories;
 
-import com.example.todotemplates.entities.TodoEntity;
+import com.example.todothymeleaf.entities.TodoEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

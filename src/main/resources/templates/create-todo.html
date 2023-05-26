@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html
+        lang="en"
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+        layout:decorate="~{layout.html}"
+>
+<head>
+    <title layout:fragment="title">Create todo</title>
+</head>
+<body>
+<div layout:fragment="content">
+    <h1>Create a todo</h1>
+
+    <a th:href="@{/todos}" class="btn btn-primary">Back</a>
+
+    <form method="post" th:action="@{/todo/create}" th:object="${todo}">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" th:field="*{name}">
+        </div>
+
+        <div class="error"></div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+</body>
+</html>

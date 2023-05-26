@@ -1,8 +1,8 @@
 package com.example.todothymeleaf.services;
 
-import com.example.todotemplates.dto.TodoDto;
-import com.example.todotemplates.entities.TodoEntity;
-import com.example.todotemplates.reporitories.TodoRepository;
+import com.example.todothymeleaf.dto.TodoDto;
+import com.example.todothymeleaf.entities.TodoEntity;
+import com.example.todothymeleaf.repositories.TodoRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
